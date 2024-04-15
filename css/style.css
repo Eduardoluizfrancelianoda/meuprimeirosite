@@ -4,24 +4,33 @@ body{
 }
 header{
     background-color: black;
+    border-width: 5px;
+    border-color: green;
 }
 .logo{
-    background-color: black;
-    color: ;
+    width: 30px;
 }
 nav{
     background-color: black;
     color: green;
+    border-width: 5px;
+    border-color: green;
 }
 main{
     background-color: black;
     color: green;
+    border-width: 5px;
+    border-color: green;
 }
 section{
     background-color: black;
     color: green;
+    border-width: 5px;
+    border-color: green;
 }
 footer{
     background-color: black;
     color: green;
+    border-width: 5px;
+    border-color: green;
 }
