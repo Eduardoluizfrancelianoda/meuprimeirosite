@@ -1,22 +1,27 @@
 body{
-    background-color: rgb(191, 191, 191);
+    background-color: black;
 
 }
 header{
-    background-color: rgb(77, 139, 195);
+    background-color: black;
 }
 .logo{
-    background-color: rgb(255, 255, 0);
+    background-color: black;
+    color: ;
 }
 nav{
-    background-color: rgb(184, 209, 231);
+    background-color: black;
+    color: green;
 }
 main{
-    background-color: rgb(146, 208, 80);
+    background-color: black;
+    color: green;
 }
 section{
-    background-color: rgb(241, 214, 226);
+    background-color: black;
+    color: green;
 }
 footer{
-    background-color: rgb(112, 48, 160);
+    background-color: black;
+    color: green;
 }
