@@ -9,14 +9,16 @@ header{
     border-style: solid;
 }
 .logo{
-    width: 30px;
+    width: 100px;
+
 }
-nav{
+.navbar{
     background-color: black;
     color: green;
     border-width: 5px;
     border-color: green;
     border-style: solid;
+    display: flex;
 }
 main{
     background-color: black;
