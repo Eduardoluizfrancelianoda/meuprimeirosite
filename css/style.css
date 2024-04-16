@@ -20,6 +20,13 @@ header{
     border-style: solid;
     display: flex;
 }
+.navbar_link{
+    padding-right: 8px;
+}
+.navbar_link:link{
+    color: green;
+    border-style: solid;
+}
 main{
     background-color: black;
     color: green;
