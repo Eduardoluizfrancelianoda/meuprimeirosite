@@ -1,11 +1,12 @@
 body{
     background-color: black;
-
+    border-style: solid;
 }
 header{
     background-color: black;
     border-width: 5px;
     border-color: green;
+    border-style: solid;
 }
 .logo{
     width: 30px;
@@ -15,12 +16,14 @@ nav{
     color: green;
     border-width: 5px;
     border-color: green;
+    border-style: solid;
 }
 main{
     background-color: black;
     color: green;
     border-width: 5px;
     border-color: green;
+    border-style: solid;
 }
 section{
     background-color: black;
@@ -33,4 +36,5 @@ footer{
     color: green;
     border-width: 5px;
     border-color: green;
+    border-style: solid;
 }
