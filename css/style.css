@@ -26,9 +26,11 @@ header{
     border-style: solid;
     background-color: green;
 }
-
-.navbar_link:visited{
-    color: black;
+a:link{
+    color:black
+}
+a:visited{
+    color:black;
 }
 main{
     background-color: black;
