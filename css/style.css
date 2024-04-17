@@ -22,10 +22,13 @@ header{
 }
 .navbar_link{
     padding-right: 8px;
-}
-.navbar_link:link{
-    color: green;
+    color: black;
     border-style: solid;
+    background-color: green;
+}
+
+.navbar_link:visited{
+    color: black;
 }
 main{
     background-color: black;
