@@ -8,9 +8,8 @@ header{
     border-color: green;
     border-style: solid;
 }
-.logo{
-    width: 100px;
-
+.logo img {
+    width: 100px !important;
 }
 .navbar{
     background-color: black;
