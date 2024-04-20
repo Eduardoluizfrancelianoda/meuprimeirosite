@@ -51,3 +51,10 @@ footer{
     border-color: green;
     border-style: solid;
 }
+.npc img {
+    width: 300px;
+}
+.npc{    
+    border-bottom: solid;
+    border-bottom-color: green;
+}
