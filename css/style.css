@@ -41,8 +41,9 @@ main{
 section{
     background-color: black;
     color: green;
-    border-width: 5px;
-    border-color: green;
+    border-width: 2px;
+    border-style: solid;
+    border-top-color: green;
 }
 footer{
     background-color: black;
