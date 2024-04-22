@@ -59,3 +59,18 @@ footer{
     border-bottom: solid;
     border-bottom-color: green;
 }
+tr:nth-child(even) {
+background-color:green;
+color:black;
+border: 1px solid black;
+}
+td, th{
+    text-align: center;
+    border: 1px solid green;
+}
+body, header, .navbar, main, section, footer, table{
+    border-collapse: collapse;
+}
+table{
+    margin: 3px;
+}
