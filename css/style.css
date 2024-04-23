@@ -1,6 +1,7 @@
 body{
     background-color: black;
     border-style: solid;
+    font-family: "Press Start 2P", system-ui;
 }
 header{
     background-color: black;
@@ -74,3 +75,8 @@ body, header, .navbar, main, section, footer, table{
 table{
     margin: 3px;
 }
+h1,h2{
+    line-height: 3;
+}
+
+  
