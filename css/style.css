@@ -18,6 +18,7 @@ header{
     border-width: 5px;
     border-color: green;
     border-style: solid;
+    overflow: hidden;
     display: flex;
 }
 .navbar_link{
@@ -25,6 +26,12 @@ header{
     color: black;
     border-style: solid;
     background-color: green;
+    display: inline-block;
+}
+@media screen and (max-width: 600px) {
+    .navbar_link{
+        display: inline-block;
+    }
 }
 a:link{
     color:black
