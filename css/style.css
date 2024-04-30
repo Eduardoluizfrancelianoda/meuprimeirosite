@@ -29,8 +29,9 @@ header{
     display: inline-block;
 }
 @media screen and (max-width: 600px) {
-    .navbar_link{
-        display: inline-block;
+    .navbar{
+        display: flex;
+        flex-direction: column;
     }
 }
 a:link{
