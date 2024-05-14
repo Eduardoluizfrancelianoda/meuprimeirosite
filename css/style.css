@@ -125,3 +125,6 @@ h1,h2{
         transform: rotateY(360deg);
     }
 }
+.footer{
+    color: green;
+}
