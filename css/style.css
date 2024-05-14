@@ -128,6 +128,6 @@ h1,h2{
 .footer_link a:link{
     color: green;
 }
-.footer_link a:link{
+.footer_link a:visited{
     color: green;
 }
