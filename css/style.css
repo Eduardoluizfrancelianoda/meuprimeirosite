@@ -9,6 +9,11 @@ header{
     border-color: green;
     border-style: solid;
 }
+main{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
 .logo img {
     width: 100px !important;
     animation: logogiro 4s linear infinite;
@@ -21,9 +26,10 @@ header{
     border-style: solid;
     overflow: hidden;
     display: flex;
+    flex-wrap:row wrap;
 }
 .navbar_link{
-    padding-right: 8px;
+    padding: 8px;
     color: black;
     border-style: solid;
     background-color: green;
@@ -36,7 +42,7 @@ header{
     }
 }
 a:link{
-    color:black
+    color:black;
 }
 a:visited{
     color:black;
@@ -119,4 +125,6 @@ h1,h2{
         transform: rotateY(360deg);
     }
 }
-  
+p a:link{
+    color: green;
+} 
