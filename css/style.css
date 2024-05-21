@@ -27,13 +27,13 @@ main{
     overflow: hidden;
     display: flex;
     flex-wrap: wrap;
+    float:left;
 }
 .navbar_link{
     padding: 8px;
     color: black;
     border-style: solid;
     background-color: green;
-    font-size: 1.2em;
 }
 .navbar_link a:link{
     color:black;
