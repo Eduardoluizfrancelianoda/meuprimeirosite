@@ -18,7 +18,7 @@ main{
     width: 100px !important;
     animation: logogiro 4s linear infinite;
 }
-.navbar{
+ul{
     background-color: black;
     color: green;
     border-width: 5px;
@@ -27,18 +27,20 @@ main{
     overflow: hidden;
     display: flex;
     flex-wrap: wrap;
-    float:left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
-.navbar_link{
+li{
     padding: 8px;
     color: black;
     border-style: solid;
     background-color: green;
 }
-.navbar_link a:link{
+li a:link{
     color:black;
 }
-.navbar_link a:visited{
+li a:visited{
     color:black;
 }
 main{
@@ -124,4 +126,8 @@ h1,h2{
 }
 .footer_link a:visited{
     color:green;
+}
+.local img{
+    float: left;
+    margin-bottom: 100px;
 }
