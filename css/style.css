@@ -34,7 +34,7 @@ main{
     border-style: solid;
     background-color: green;
     display: inline-block;
-    font size: 1.2em;
+    font size: 1.5em;
 }
 .navbar_link a:link{
     color:black;
