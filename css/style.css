@@ -34,12 +34,7 @@ main{
     border-style: solid;
     background-color: green;
     display: inline-block;
-}
-@media screen and (max-width: 600px) {
-    .navbar{
-        display: flex;
-        flex-direction: column;
-    }
+    font size: 1.2em;
 }
 .navbar_link a:link{
     color:black;
