@@ -26,7 +26,6 @@ ul{
     border-style: solid;
     overflow: hidden;
     display: flex;
-    flex-wrap: wrap;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -130,4 +129,16 @@ h1,h2{
 .local img{
     float: left;
     margin-bottom: 100px;
+}
+@media only screen and (max-width: 600px) {
+    ul{
+        display: block;
+    }
+    main{
+        width: auto;
+    }
+    .local img{
+        float: none;
+        width: 440px;
+    }
 }
