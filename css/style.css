@@ -29,6 +29,17 @@ ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
+    overflow-x: auto;
+}
+ul::-webkit-scrollbar{
+    color: black;
+    height: 10px;
+    margin-bottom: 10px;
+    margin-top: 100000px;
+}
+ul::-webkit-scrollbar-thumb{
+    background-color: green;
+    border-radius: 10px;
 }
 li{
     padding: 8px;
@@ -83,7 +94,6 @@ body, header, .navbar, main, section, footer, table{
     border-collapse: collapse;
 }
 table{
-    margin: 3px;
     display: block;
     width: 100%;
     overflow-x:auto
@@ -96,12 +106,13 @@ table::-webkit-scrollbar-thumb{
     background-color: green;
     border-radius: 10px;
 }
-.col-3{
+.col-3 img{
     width: 25%;
 }
 .col-3 p{
     font-size: 1rem;
     text-align: center;
+    width: 25%;
 }
 .linha{
     display: flex;
@@ -129,6 +140,7 @@ h1,h2{
 .local img{
     float: left;
     margin-bottom: 100px;
+    
 }
 @media only screen and (max-width: 600px) {
     ul{
@@ -140,5 +152,6 @@ h1,h2{
     .local img{
         float: none;
         width: 440px;
+        width: 485px;
     }
 }
