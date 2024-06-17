@@ -41,6 +41,29 @@ ul::-webkit-scrollbar-thumb{
     background-color: green;
     border-radius: 10px;
 }
+.capalegalnavbar{
+    background-color: black;
+    color: green;
+    border-width: 5px;
+    border-color: green;
+    border-style: solid;
+    overflow: hidden;
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow-x: auto;
+}
+.capalegalnavbar::-webkit-scrollbar{
+    color: black;
+    height: 10px;
+    margin-bottom: 10px;
+    margin-top: 100000px;
+}
+.capalegalnavbar::-webkit-scrollbar-thumb{
+    background-color: green;
+    border-radius: 10px;
+}
 li{
     padding: 8px;
     color: black;
@@ -154,6 +177,10 @@ h1,h2{
         width: 440px;
         width: 485px;
     }
+    .capalegalnavbar{
+        width: 1000px;
+        display: block;
+    }
 }
 .img-container{
     position:relative;
@@ -184,4 +211,7 @@ h1,h2{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.capalegal img{
+    width: 1000px;
 }
