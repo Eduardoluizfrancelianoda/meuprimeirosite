@@ -25,15 +25,25 @@
                 <li><a href="locais.html">locais</a></li>
                 <li><a href="armaseequipamentos.html">armas e equipamentos</a></li>
                 <li><a href="capalegal.html">capa legal</a></li>
+                <li><a href="contato.html.html">contato</a></li>
             </ul>
         </nav> 
     </header>
     <main>
-        <section>
+        <div class="inpagenavbar">
+            <ul>
+                <li><a href="#introducao">introdução</a></li>
+                <li><a href="#jogabilidade">jogabilidade</a></li>
+                <li><a href="#special">special</a></li>
+                <li><a href="#desenvolvimento">desenvolvimento</a></li>
+                <li><a href="#recepção">recepção</a></li>
+            </ul>
+        </div>
+        <section id="introducao">
             <h1>introdução</h1>
             <p>Fallout 1 é um jogo de RPG (Role-Playing Game) desenvolvido pela Interplay Entertainment e lançado em 1997. É o primeiro jogo da renomada série de jogos de vídeo "Fallout". A série é ambientada em um mundo pós-apocalíptico após uma guerra nuclear devastadora, onde a civilização foi reduzida a ruínas e várias facções competem pelo poder e recursos.</p>
         </section>
-        <section>
+        <section id="jogabilidade">
             <h2>jogabilidade</h2>
                 <p>A jogabilidade de "Fallout 1" é caracterizada por uma mistura de exploração, combate, interações com personagens não jogáveis e tomada de decisões que moldam o curso da história. Aqui estão alguns aspectos-chave da jogabilidade:</p>
                 
@@ -49,7 +59,7 @@
                 
                 <p>6. Tomada de decisões e consequências: As escolhas dos jogadores têm um impacto significativo no desenrolar da história e no mundo ao seu redor. Decisões morais, políticas e táticas podem levar a diferentes desfechos, influenciando o destino de facções inteiras e o destino dos habitantes do mundo pós-apocalíptico.</p>
         </section>
-        <section>
+        <section id="special">
             <h2>S.P.E.C.I.A.L</h2>
             <p>O sistema S.P.E.C.I.A.L. é uma parte fundamental da jogabilidade de Fallout 1 e de toda a série "Fallout". S.P.E.C.I.A.L. é um acrônimo que representa os atributos do personagem que os jogadores podem personalizar durante a criação do personagem. Aqui está uma visão geral de cada atributo:</p>
 <br>
@@ -69,15 +79,30 @@
                 
                 <p>Durante a criação do personagem em "Fallout 1", os jogadores distribuem pontos entre esses atributos de acordo com suas preferências e estilo de jogo. Cada atributo tem um impacto significativo nas habilidades e na jogabilidade do personagem, afetando suas interações com o mundo e o desempenho em combate e em outras situações. O sistema S.P.E.C.I.A.L. adiciona profundidade e personalização à experiência de jogo, permitindo que os jogadores criem personagens únicos e adaptem-se a diferentes desafios no mundo pós-apocalíptico de Fallout.</p>
         </section>
-        <section>
+        <section id="desenvolvimento">
                 <h1>desenvolvimento</h1>
                 <p>Vários atores conhecidos foram convidados para dublar Fallout. Ron Perlman escreveu as histórias do jogo, e o prólogo do jogo usa uma das frases mais marcantes da série Fallout, "Guerra". O conflito nunca muda." Ele recebeu um novo convite para narrar as sequências da série Fallout. Além disso, Richard Dean Anderson, David Warner, Tony Shalhoub (também conhecido como Tony Shalub), Brad Garrett, Keith David, Richard Moll e Tony Jay fizeram aparições. A Black Isle tentou licenciar a música "I Don't Want to Set the World on Fire" dos The Ink Spots como a música tema, mas não conseguiu por causa de questões de direitos autorais.A Bethesda licenciou esta música para Fallout 3.</p>
         </section>
-        <section>
+        <section id="recepção">
                 <h1>recepção</h1>
                 <p>Em 2001, 2005, 2007, 2008 e 2010, Fallout foi classificado como o quarto, décimo, treze, vinte e um melhor jogo de todos os tempos pela PC Gamer. Em 2007, foi classificado em 5o lugar e em 2009, foi classificado em 19o lugar na lista da IGN dos "Top 25 PC Games of All Time". Em 2005, ele ficou em #55 no "IGN Top 100 Games of All Time" e em 2007, ficou em #33. Em 2007, a "101 Best PC Games Ever" da PC Zone o nomeou no número 21. Os sites Computer Gaming World, GameSpot, GameSpy e IGN apresentaram Fallout no "Hall of Fame". Em 1997, foi nomeado "RPG do Ano" pela GameSpot e ficou em sexto lugar na lista "Top 10" da Game Informer em 2008.</p>
         </section>
     </main>
+    <script>
+        document.querySelectorAll('.inpagenavbar a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+                const offset = 50; // Altura do menu sticky
+
+                window.scrollTo({
+                    top: targetElement.offsetTop - offset,
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
     <footer>
         <p>Eduardo Luiz Franceliano</p>
         <p>fontes:

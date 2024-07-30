@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: black;
     border-style: solid;
@@ -217,4 +220,8 @@ h1,h2{
 }
 .capalegal img{
     width: 1200px;
+}
+div.inpagenavbar{
+    position: sticky;
+    top: 0;
 }
