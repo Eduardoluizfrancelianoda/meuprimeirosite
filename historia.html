@@ -12,7 +12,7 @@
     <link rel="shortcut icon" type="imagex/png" href="img/logos/vaulttec.png">
 </head>
 <body>
-    <header>
+    <header id="inicio">
         <div class = "logo">
             <img src="img/logos/egs-falloutapostnuclearroleplayinggame-bethesdagamestudios-ic1-400x400-d6d3b7256a03.avif" alt="">
         </div>
@@ -30,7 +30,13 @@
         </nav> 
     </header>
     <main>
-        <section>
+        <div class="inpagenavbar">
+            <ul>
+                <li><a href="#inicio">inicio</a></li>
+                <li><a href="#historia">a historia</a></li>
+            </ul>
+        </div>
+        <section id="historia">
             <h1>A história do mundo de Fallout</h1>
             <p>Antes da Grande Guerra que devastou o mundo e definiu o cenário de Fallout, a história se desenrolou em um universo alternativo onde a história humana divergiu da nossa. A linha do tempo de Fallout diverge da nossa a partir do final da Segunda Guerra Mundial, na década de 1940.</p>
 
@@ -43,6 +49,21 @@
                 <p>Este evento catastrófico marcou o início da era pós-apocalíptica de Fallout, onde a sobrevivência é uma luta diária em um mundo devastado pela guerra nuclear. A humanidade é forçada a reconstruir a civilização das cinzas, enfrentando radiação, mutantes, criaturas monstruosas e as consequências de suas próprias ações antes da guerra. A história do mundo de Fallout é uma narrativa sombria e muitas vezes satírica sobre a natureza da humanidade, poder e sobrevivência.</p>
         </section>
     </main>
+    <script>
+        document.querySelectorAll('.inpagenavbar a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+                const offset = 50; // Altura do menu sticky
+
+                window.scrollTo({
+                    top: targetElement.offsetTop - offset,
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
     <footer>
         <p>Eduardo Luiz Franceliano</p>
         <p>fontes:
