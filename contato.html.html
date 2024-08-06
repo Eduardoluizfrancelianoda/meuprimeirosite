@@ -31,34 +31,34 @@
     </header id="inicio">
     <main>
         <div class="inpagenavbar">
-            <ul>
+            <ul class="inpagenavbarlist">
                 <li><a href="#inicio">inicio</a></li>
                 <li><a href="#formulario">formulario</a></li>    
             </ul>
         </div>
         <form action="" id="formulario">
             <fieldset>
-                <legend>informações pessoais</legend>
-                <label id="fname">nome</label>
+                <legend>informações pessoais</legend><hr>
+<div class="ip"><label id="fname">nome</label>
                 <input type="text" id="fname" name="name">
-                <label>email</label>
-                <input type="text">
-                <label>idade</label>
-                <input type="number">
+                <label id="femail">email</label>
+                <input type="email" id="femail" name="email">
+                <label id="fage">idade</label>
+                <input type="number" id="fage" name="age"></div>
             </fieldset>
             <fieldset>
-                <legend>experiencia com fallout 1</legend>
-                <label>quando você jogou fallout 1 pela primeira vez?</label><br>
-                <input type="date"><br><hr>
-                <label>quantas vezes você já completou o jogo?</label><br>
-                <input type="number"><br><hr>
-                <label>qual é a sua parte favorita do jogo?</label><br>
-                <input type="text">
+                <legend>experiencia com fallout 1</legend><hr>
+                <label id="ffirsttime">quando você jogou fallout 1 pela primeira vez?</label><br>
+                <input type="date" id="ffirsttime" name="firstgameplay"><br><hr>
+                <label id="fhowmanytimes">quantas vezes você já completou o jogo?</label><br>
+                <input type="number" id="fhowmanytimes" name="howmanytimeshaveyouplayedthisgamebefore"><br><hr>
+                <label id="ffavoritepart">qual é a sua parte favorita do jogo?</label><br>
+                <input type="text" id="ffavoritepart" name="favoritepart">
             </fieldset>
             <fieldset>
-                <legend>personagem preferido</legend>
-                <label>quem é o seu personagem favorito?</label>
-                <select name="" id="">
+                <legend>personagem preferido</legend><hr>
+                <label id="ffavoritecharacter">quem é o seu personagem favorito?</label>
+                <select name="favoritepart" id="ffavoritecharacter">
                     <option value="aradesh">aradesh</option>
                     <option value="overseer">overseer</option>
                     <option value="butch">butch</option>
@@ -80,9 +80,9 @@
                     <option value="tandi">tandi</option>
                     <option value="vree">vree</option>
                     <option value="harold">harold</option>
-                </select>
-                <label>por que?</label>
-                <input type="text">
+                </select><br><hr>
+                <label id="porque">por que?</label>
+                <input type="text" id="porque" name="porque">
             </fieldset>
             <button type="submit">enviar</button>
         </form>
