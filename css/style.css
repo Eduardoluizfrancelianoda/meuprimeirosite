@@ -225,3 +225,34 @@ div.inpagenavbar{
     position: sticky;
     top: 0;
 }
+fieldset{
+    margin-bottom: 20px;
+    border-color: green;
+}
+input{
+    margin-bottom: 10px;
+    background-color: black;
+    color: green;
+    border: green solid;
+}
+hr{
+    border-color: green;
+}
+select{
+    margin-bottom: 10px;
+    background-color: black;
+    color: green;
+    border: green solid;
+}
+select::-webkit-scrollbar{
+    color: black;
+    height: 30px;
+}
+select::-webkit-scrollbar-thumb{
+    background-color: green;
+    border-radius: 10px;
+}
+button{
+    background-color: green;
+    color: black;
+}
