@@ -1,7 +1,7 @@
 <html>
 <head>
 <link rel="stylesheet" href="css/style.css">
-<title>Excluir Produto</title>
+<title>listar Produtos</title>
 </head>
 <body>
     <MAIn>
@@ -54,4 +54,5 @@
         </section>
     </MAIn>
 </body>
+
 </html>
