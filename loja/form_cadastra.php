@@ -21,7 +21,7 @@
                 <input type="text" class="form-control" name="quantidade" placeholder="#Digite a quantidade">                
             </div>
             
-            <button type="submit" class="btn btn-primary btn-green-black">#Cadrastar</button>
+            <button type="submit" class="btn btn-primary btn-green-black">#Cadastrar</button>
         </form>
     </div>
 
@@ -31,3 +31,4 @@
 </body>
 
 </html>
+
