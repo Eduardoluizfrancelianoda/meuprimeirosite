@@ -1,7 +1,7 @@
 <html>
 <head>
 <link rel="stylesheet" href="css/style.css">
-<title>Excluir Produto</title>
+<title>atualizar Produto</title>
 </head>
 <?php
     require 'conexao.php';
@@ -28,4 +28,5 @@
     } else {
         echo "Erro ao atualizar produto.";
     }
+
 ?>
