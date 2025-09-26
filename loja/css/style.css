@@ -1,0 +1,128 @@
+html {
+    scroll-behavior: smooth;
+}
+body, main, section, header, footer {
+    background-color: black;
+    color: green;
+    font-family: "Roboto Mono", system-ui;
+    border-style: solid;
+    border-color: green;
+    border: solid;
+}
+body {
+    border-collapse: collapse;
+    background-image: url('../imagens/bg.jpg');
+}
+header, footer, main {
+    border-width: 5px;
+}
+section {
+    border-width: 2px;
+    border-top-color: green;
+}
+main {
+    margin: 0 auto;
+    border-left: 0cap;
+    border-right: 0cap;
+    border-top: 0cap;
+}
+h1, h2 {
+    line-height: 1.2;
+}
+table, th, td, tr, thead, tbody, tfoot {
+    width: 100%;
+    color: green !important;
+    border: 1px solid green !important;
+    text-align: center !important;
+}
+th:nth-child(1), td:nth-child(1) { width: 10%; }
+th:nth-child(2), td:nth-child(2) { width: 30%; }
+th:nth-child(3), td:nth-child(3) { width: 15%; }
+th:nth-child(4), td:nth-child(4) { width: 15%; }
+th:nth-child(5), td:nth-child(5) { width: 30%; }
+table tr:nth-child(even) td, 
+table tr:nth-child(even) th {
+    background-color: green !important;
+    color: black !important;
+    border-color: black !important;
+}
+input, .form-control, button, textarea, select {
+    margin-bottom: 10px;
+    background-color: black;
+    color: green;
+    border: 1px solid green;
+    outline: none;
+    border-radius: 4px;
+}
+input:focus, .form-control:focus {
+    background-color: green;
+    color: black;
+}
+input::after, textarea::after {
+    color: green;
+}
+fieldset {
+    margin-bottom: 20px;
+    border-color: green;
+}
+hr {
+    border-color: green;
+}
+.btn-black-green, .btn-danger, .btn-green-black:hover {
+    background-color: green !important;
+    color: black !important;
+    border: 2px solid black !important;
+    border-radius: 12px !important;
+    padding: 10px 20px !important;
+    text-decoration: none !important;
+    font-size: 16px !important;
+    cursor: pointer !important;
+}
+.btn-green-black, .btn-warning, .btn-black-green:hover {
+    background-color: black !important;
+    color: green !important;
+    border: 2px solid green !important;
+    border-radius: 12px !important;
+    padding: 10px 20px !important;
+    text-decoration: none !important;
+    font-size: 16px !important;
+    cursor: pointer !important;
+}
+.btn-group {
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+}
+.logo img {
+    width: 100px !important;
+    animation: logogiro 4s linear infinite;
+}
+@keyframes logogiro {
+    from { transform: rotateY(0deg); }
+    to { transform: rotateY(360deg); }
+}
+@media only screen and (max-width: 600px) {
+    main { width: auto; }
+    h1, h2 { font-size: 1.2rem; }
+}
+input::placeholder,textarea::placeholder {
+    color: green;
+    opacity: 1; /* Garante que a cor fique visível */
+}
+a {
+    color: green;
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+    background-color: green;
+    text-decoration: none;
+}
+.menu ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+.menu ul li {
+    width: 100%;
+}
