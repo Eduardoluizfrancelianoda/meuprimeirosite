@@ -1,7 +1,7 @@
 <html>
 <head>
 <link rel="stylesheet" href="css/style.css">
-<title>Excluir Produto</title>
+<title>cadastrar Produto</title>
 </head>
 <body>
     <section>
@@ -29,4 +29,5 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
     </section>
 </body>
+
 </html>
