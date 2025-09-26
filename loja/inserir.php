@@ -1,7 +1,7 @@
 <html>
 <head>
 <link rel="stylesheet" href="css/style.css">
-<title>Excluir Produto</title>
+<title>inserir Produto</title>
 </head>
 <body>
     <main>
@@ -29,4 +29,5 @@ echo "Erro ao inserir produto.";
 ?>
     </main>
 </body>
+
 </html>
