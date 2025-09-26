@@ -2,7 +2,7 @@
 <html>
 <head>
 <link rel="stylesheet" href="css/style.css">
-<title>Excluir Produto</title>
+<title>pagina inicial</title>
 </head>
 <body>
     <main>
@@ -22,4 +22,5 @@
     </section>
     </main>
 </body>
+
 </html>
